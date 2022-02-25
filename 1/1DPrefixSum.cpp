@@ -5,7 +5,7 @@
 
 
 
-// prints all elements of the given vector and message (if given) to std::cout
+// prints message (if given) and all elements of the given vector to std::cout
 void printVector(std::vector<int>& vec, std::string message = ""){
     if (message != "")
         std::cout << message << " ";
@@ -65,6 +65,9 @@ int main(int argc, char const *argv[])
             {
                 sum += test[k];
             }
+            
+            std::cout << "i: " << i << " j: " << j << " naive: " << sum << " prefixSum: " << prefixsum.sum(i,j) << "\n";
+            
             assert(sum == prefixsum.sum(i, j));
         }
         
