@@ -1,3 +1,6 @@
+.PHONY : all
+all: 1DPrefixSumSol 1DPrefixSum
+
 
 1DPrefixSumSol: 1DPrefixSumSol.cpp
 	g++ -o 1DPrefixSumSol.out 1DPrefixSumSol.cpp
