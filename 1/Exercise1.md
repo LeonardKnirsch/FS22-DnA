@@ -8,6 +8,7 @@ Grundsätzliches:
    3. Sinnvolle Namen für Variabeln (kein `int temptemp = 42;`)
 3. Bonus: Ist eine geschenkte Viertelnote und sollte auf jeden Fall angepeilt werden!
 4. Github-Repo: https://github.com/LeonardKnirsch/FS22-DnA
+5. Theorieaufgaben: LaTeX und Markdown, falls ihr wollt könnt ihr auch Bilder hochladen (solange lesbar)
 
 
 ## Big-O notation
